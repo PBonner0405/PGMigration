@@ -1,0 +1,34 @@
+{
+  "name": "pgmigration",
+  "version": "1.0.0",
+  "description": "PostgreSql migration with nodejs",
+  "main": "app.js",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "pg": "^7.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r dotenv/config app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TopDev10/PGMigration.git"
+  },
+  "keywords": [
+    "postgresql",
+    "migration",
+    "node"
+  ],
+  "author": "Topdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TopDev10/PGMigration/issues"
+  },
+  "homepage": "https://github.com/TopDev10/PGMigration#readme"
+}
